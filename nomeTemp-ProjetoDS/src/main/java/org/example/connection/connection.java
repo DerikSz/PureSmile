@@ -9,8 +9,8 @@ public class connection {
 
     final String driver = "com.mysql.jdbc.Driver";
     final String url = "jdbc:mysql://127..0.0.1/clients";
-    final String user = dotenv.get("DB_ROOTUSERNAME");
-    final String password = dotenv.get("DB_ROOTPASSWORD");
+    final String user = dotenv.get("DB_MYSQLROOTUSERNAME");
+    final String password = dotenv.get("DB_MYSQLROOTPASSWORD");
     private Connection connectionDB;
     public Statement statement;
     public ResultSet resultSet;

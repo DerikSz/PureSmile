@@ -1,4 +1,4 @@
-nomeTemp-ProjetoDS/.env
+.env
 .idea/
 target/
 !.mvn/wrapper/maven-wrapper.jar
