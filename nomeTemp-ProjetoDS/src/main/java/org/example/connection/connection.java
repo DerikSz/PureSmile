@@ -1,12 +1,16 @@
 package org.example.connection;
 
+import io.github.cdimascio.dotenv.Dotenv;
+
 import java.sql.*;
 
 public class connection {
-    final static String driver = "com.mysql.jdbc.Driver";
-    final static String url = "jdbc:mysql://127..0.0.1/clients";
-    final String user = "root";
-    final String password = "root123";
+    Dotenv dotenv = Dotenv.load();
+
+    final String driver = "com.mysql.jdbc.Driver";
+    final String url = "jdbc:mysql://127..0.0.1/clients";
+    final String user = dotenv.get("DB_MYSQLROOTUSERNAME");
+    final String password = dotenv.get("DB_MYSQLROOTPASSWORD");
     private Connection connectionDB;
     public Statement statement;
     public ResultSet resultSet;
@@ -47,5 +51,9 @@ public class connection {
             System.out.println("SQL command invalid!");
             e.printStackTrace();
         }
+    }
+
+    public String getPassword() {
+        return password;
     }
 }
