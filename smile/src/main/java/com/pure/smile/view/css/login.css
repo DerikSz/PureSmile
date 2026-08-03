@@ -265,8 +265,6 @@
 
 .input-icon{
     position: relative;
-    font-family: var(--font-texto);
-    font-size: var(--texto-sm);
 }
 
 .input-icon input{
@@ -289,6 +287,9 @@
     border: 1.5px solid var(--cor-borda);
     background: var(--cor-superficie);
     color: var(--cor-texto);
+    font-family: var(--font-texto);
+    font-size: var(--texto-sm);
+    transition: all var(--transicao-rapida);
 }
 
 .input:focus{

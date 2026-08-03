@@ -7,6 +7,7 @@
 
     --cor-primaria: #394E6E;
     --cor-primaria-hover: #2E405B;
+    --cor-primaria-suave: rgba(57, 78, 110, 0.12); /* anel/fundo translúcido da primária */
 
     --cor-secundaria: #A0ADC2;
     --cor-terciaria: #DCE4EF;
@@ -73,6 +74,7 @@
 
     --cor-primaria: #5E81AC;
     --cor-primaria-hover: #7195BE;
+    --cor-primaria-suave: rgba(94, 129, 172, 0.18); /* anel/fundo translúcido da primária */
 
     --cor-secundaria: #D1D5DB;
     --cor-terciaria: #374151;
