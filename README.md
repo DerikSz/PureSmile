@@ -42,10 +42,10 @@ Slogan sugerido:
 
 ## 👨‍💻 Equipe
 
-*Derik Soares - <a href="https://github.com/derikbatinga">Perfil</a>**
-*Douglas Soares - <a href="https://github.com/DouglasSoaresSilva">Perfil</a>**
-*Guilherme Izidio - <a href="https://github.com/Guilhermezi">Perfil</a>**
-*Isaac Nogueira - <a href="https://github.com/Isaac-Nogueira">Perfil</a>**
+* Derik Soares - <a href="https://github.com/derikbatinga">Perfil</a>**
+* Douglas Soares - <a href="https://github.com/DouglasSoaresSilva">Perfil</a>**
+* Guilherme Izidio - <a href="https://github.com/Guilhermezi">Perfil</a>**
+* Isaac Nogueira - <a href="https://github.com/Isaac-Nogueira">Perfil</a>**
 
 Projeto desenvolvido pelos alunos do curso de Desenvolvimento de Sistemas para fins acadêmicos.
 
