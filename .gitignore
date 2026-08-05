@@ -1,4 +1,6 @@
 .env
+HELP.md
+smile/bd_cliente.sql
 .idea/
 target/
 !.mvn/wrapper/maven-wrapper.jar
